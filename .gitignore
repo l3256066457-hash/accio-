@@ -27,6 +27,9 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
+.env.*
+!.env.example
 
 # vercel
 .vercel
@@ -38,3 +41,12 @@ next-env.d.ts
 # local working notes (cookies, GPT proposals, prod logs)
 /.review/
 /test_write.txt
+
+# scraping local files
+/.scrapling_cache/
+/crawl_data/
+/output/
+/reports/
+.cantonfair_storage_state.json
+*.sqlite3
+*.db
